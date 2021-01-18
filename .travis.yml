@@ -7,7 +7,7 @@ cache: packages
 warnings_are_errors: false
 
 before_install:
- - sudo apt-get install -y xz-utils libxrender1 gdebi-core pep8 pyflakes
+ - sudo dpkg -i -y xz-utils libxrender1 gdebi-core pep8 pyflakes
 
 env:
   global:
